@@ -1,165 +1,200 @@
-#box-wrapper, #box-second, #box-third, #box-fourth, #box-fifth, #box-sixth{
-  background-image: url("../img/me.jpeg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  height:100vh;
-  font-family: 'MyFontName', Fallback, sans-serif;
+#box-wrapper,
+#box-second,
+#box-third,
+#box-fourth,
+#box-fifth,
+#box-sixth {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'MyFontName', Fallback, sans-serif;
 }
+/* BACKGROUND-COLOR */
 
 #box-wrapper {
-  background-image: url("../img/me.jpeg");
-    
+    background-color: #18121E;
 }
 #box-second {
-  background-image: url("../img/second.jpeg");
+    background-color: #FBA100;
 }
-
 #box-third {
-  background-image: url("../img/pexels-photo-122458.jpeg");
+    background-color: #FEDC01;
 }
-
 #box-fourth {
-  background-image: url("../img/zagl.jpg");
+    background-color: #C63D0F;
 }
-
 #box-fifth {
-  background-image: url("../img/pexels.jpeg");
+    background-color: #A8CD1B;
 }
-
 #box-sixth {
-  background-image: url("../img/second.jpg");
+    background-color: #18121E;
 }
+/* FONT */
 
 @font-face {
-    font-family: 'MyFontName'; /*a name to be used later*/
-    src: url('../font/Adequate-ExtraLight.ttf'); /*URL to font*/
+    font-family: 'MyFontName';
+    /*a name to be used later*/
+    
+    src: url('../font/Adequate-ExtraLight.ttf');
+    /*URL to font*/
 }
+/* MY NAME */
 
-#box-wrapper h1{
-  text-align: center;
-  position: absolute;
-  transform: translateX(-50%) translateY(-50%);
-  color: #202020;
-  margin: auto;
-  letter-spacing: 20px;
-  top: 50%; /* IMPORTANT */
-  left: 50%; /* IMPORTANT */
+#box-wrapper h1 {
+    text-align: center;
+    position: absolute;
+    color: snow;
+    margin: auto;
+    letter-spacing: 20px;
+    top: 50%;
+    /* IMPORTANT */
+    
+    left: 50%;
+    /* IMPORTANT */
 }
+/* WHO AM I */
 
-#box-wrapper p{
-  text-align: left;
-  position: absolute;
-  color: #202020;
-  margin: 10px;
-  letter-spacing: 15px;
-  top: 3%; /* IMPORTANT */
-  left: 3%; /* IMPORTANT */
+#box-wrapper p {
+    text-align: left;
+    position: absolute;
+    color: snow;
+    letter-spacing: 5px;
+    margin: 10px;
+    top: 3%;
+    /* IMPORTANT */
+    
+    left: 3%;
+    /* IMPORTANT */
 }
-
-#box-second h1, h2, #box-third h1, #skills, #box-fifth h1, #box-fifth h2, #box-sixth h1, h2 {
-  margin: auto;
-  left: 50%;
-  text-align: center;
-  position: absolute;
-  transform: translateX(-50%) translateY(-50%);
-  color: white;
+#box-second h1,
+h2,
+#box-third h1,
+#skills,
+#box-fifth h1,
+#box-fifth h2,
+#box-sixth h1,
+h2 {
+    margin: auto;
+    left: 50%;
+    text-align: center;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
 }
-
 #box-second h2 {
-  width: 60vw;
+    width: 60vw;
+}
+#html5,
+#css3,
+#js,
+#jquery,
+#photoshop,
+#illustrator,
+#inkscape,
+#rwd,
+#gimp,
+#bootstrap {
+    display: block;
+    animation-iteration-count: infinite;
+    color: #202020;
+    -webkit-animation-name: mymove;
+    /* Safari 4.0 - 8.0 */
+    
+    -webkit-animation-duration: 5s;
+    /* Safari 4.0 - 8.0 */
+    
+    animation-name: mymove;
+    animation-duration: 5s;
+}
+#skills,
+#mytablet {
+    display: inline;
+}
+#box-fifth h1,
+h2 {
+    color: white;
+    display: block;
+}
+#box-sixth h1,
+#box-sixth h2 {
+    color: #202020;
 }
 
-#html5, #css3, #js, #jquery, #photoshop, #illustrator, #inkscape, #rwd, #gimp, #bootstrap {
-      display: block;
-      animation-iteration-count:infinite;
-      color: #202020;
-      -webkit-animation-name: mymove; /* Safari 4.0 - 8.0 */
-      -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
-      animation-name: mymove;
-      animation-duration: 5s;
-
-    }
-    #skills, #mytablet {
-      display: inline;
-    }
-
-    #box-fifth h1, h2{
-      color: white;
-      display: block;
-    }
-
-    #box-sixth h1, #box-sixth h2 {
-      color: #202020;
-    }
-
-@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */ 
-    #box-wrapper h1{
-      font-size: 15px;
+    /* smartphones, iPhone, portrait 480x320 phones */
+@media (min-width: 300px) {
+    
+    /* FIRST PAGE */
+    #box-wrapper h1 {
+        font-size: 15px;
+        transform: translateX(-50%) translateY(-320%);
     }
     #box-wrapper p {
-      font-size: 7px;
-      letter-spacing: 10px;
+        font-size: 8px;
+    }
+    #me {
+        width: 65vw;
+        height: 65vh;
+        transform: translate(60px, 230px);
     }
     #box-second h1 {
-      top: 9%;
-      font-size: 20px;
+        top: 9%;
+        font-size: 20px;
     }
     #box-second h2 {
-      left: 50%;
-      top:45%;
-      font-size: 3vw;
+        left: 50%;
+        top: 45%;
+        font-size: 3vw;
     }
     #box-third h1 {
-      top: 9%;
-      left: 50%;
-      font-size: 20px;
+        top: 9%;
+        left: 50%;
+        font-size: 20px;
     }
     #tablet {
-    width: 90vw;
-    height: 90vh;
-    transform: translate(-10px,170px);
-}
-  #skills {
-      font-size: 3vw;
-      left: 50%;
-      top:33%;
-  }
-      #box-fifth h1 {
-      top: 9%;
-      font-size: 25px;
+        width: 90vw;
+        height: 90vh;
+        transform: translate(-10px, 170px);
+    }
+    #skills {
+        font-size: 3vw;
+        left: 50%;
+        top: 33%;
+    }
+    #box-fifth h1 {
+        top: 9%;
+        font-size: 25px;
     }
     #jesli {
-      left: 50%;
-      top:30%;
-      font-size: 3vw;
+        left: 50%;
+        top: 30%;
+        font-size: 3vw;
     }
     #email {
-      font-weight: 900;
-      left: 50%;
-      top:50%;
-      font-size: 4vw;
+        font-weight: 900;
+        left: 50%;
+        top: 50%;
+        font-size: 4vw;
     }
-      #czekam {
-      left: 50%;
-      top:70%;
-      font-size: 3vw;
+    #czekam {
+        left: 50%;
+        top: 70%;
+        font-size: 3vw;
     }
     #box-sixth h1 {
-      letter-spacing: 3px;
-      left: 50%;
-      top:20%;
-      font-size: 3vw;
+        letter-spacing: 3px;
+        left: 50%;
+        top: 20%;
+        font-size: 3vw;
     }
     #box-sixth h2 {
-      letter-spacing: 3px;
-      left: 50%;
-      top:40%;
-      font-size: 3vw;
+        letter-spacing: 3px;
+        left: 50%;
+        top: 40%;
+        font-size: 3vw;
     }
-  
-   /* @-webkit-keyframes mymove {
+    /* @-webkit-keyframes mymove {
       from {left: 0px;}
       to {left: 100px;}
 }
@@ -170,376 +205,464 @@
 }
 */
 }
-@media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
-    #box-wrapper h1{
-      font-size: 20px;
-    }
-    #box-wrapper p {
-      font-size: 10px;
-    }
-    #box-second h1 {
-      font-size: 25px;
-    }
-    #box-second h2 {
-      left: 50%;
-      top:45%;
-      font-size: 2.5vw;
-    }
-    #box-second h1 {
-      top: 9%;
-      left: 50%;
-      font-size: 25px;
-    }
-      #box-third h1 {
-      top: 9%;
-      left: 50%;
-      font-size: 25px;
-    }
-    #tablet {
-    width: 70vw;
-    height: 70vh;
-    transform: translate(-10px,215px);
-}
-  #skills {
-      font-size: 2.5vw;
-      left: 50%;
-      top:33%;
-  }
-      #box-fifth h1 {
-      top: 9%;
-      font-size: 25px;
-    }
-    #jesli {
-      left: 50%;
-      top:30%;
-      font-size: 2.5vw;
-    }
-    #email {
-      font-weight: 900;
-      left: 50%;
-      top:50%;
-      font-size: 3vw;
-    }
-      #czekam {
-      left: 50%;
-      top:70%;
-      font-size: 2.5vw;
-    }
-    #box-sixth h1 {
-      top: 9%;
-      font-size: 30px;
-    }
-    #box-sixth h2 {
-      left: 50%;
-      top:30%;
-      font-size: 3vw;
-    }
-    #box-sixth h1 {
-      letter-spacing: 3px;
-      left: 50%;
-      top:25%;
-      font-size: 3vw;
-    }
-    #box-sixth h2 {
-      letter-spacing: 3px;
-      left: 50%;
-      top:50%;
-      font-size: 3vw;
-    }
-}
-@media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
-    #box-wrapper h1{
-      font-size: 30px;
-    }
-    #box-wrapper p {
-      font-size: 10px;
-    }
-    #box-second h1 {
-      top: 10%;
-      font-size: 35px;
-    }
-    #box-second h2 {
-      left: 50%;
-      top:45%;
-      font-size: 2vw;
-    }
-      #box-second h1 {
-      top: 9%;
-      left: 50%;
-      font-size: 35px;
-    }
-      #box-third h1 {
-      top: 9%;
-      left: 50%;
-      font-size: 35px;
-    }
-    #tablet {
-    width: 70vw;
-    height: 70vh;
-    transform: translate(-30%,30%);
-}
-    #skills {
-      font-size: 2.5vw;
-      left: 75%;
-      top:57%;
-  }
-    #box-fifth h1 {
-      top: 9%;
-      font-size: 35px;
-    }
-    #jesli {
-      left: 50%;
-      top:30%;
-      font-size: 2vw;
-    }
-    #email {
-      font-weight: 900;
-      left: 50%;
-      top:50%;
-      font-size: 3vw;
-    }
-      #czekam {
-      left: 50%;
-      top:70%;
-      font-size: 2vw;
-    }
-    #box-sixth h1 {
-      letter-spacing: 3px;
-      left: 50%;
-      top:25%;
-      font-size: 2.5vw;
-    }
-    #box-sixth h2 {
-      letter-spacing: 3px;
-      left: 50%;
-      top:50%;
-      font-size: 2.5vw;
-    }
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+@media (min-width: 481px) {
     
-}
-@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */
-    #box-wrapper h1{
-      font-size: 36px;
-    }
-     #box-wrapper p {
-      font-size: 10px;
-    }
-    #box-second h1 {
-      font-size: 40px;
-    }
-    #box-second h2 {
-      left: 50%;
-      top:45%;
-      font-size: 2vw;
-    }
-      #box-second h1 {
-      top: 9%;
-      left: 50%;
-      font-size: 40px;
-    }
-      #box-third h1 {
-      top: 9%;
-      left: 50%;
-      font-size: 40px;
-    }
-    #tablet {
-    width: 70vw;
-    height: 70vh;
-    transform: translate(-30%,20%);
-}
-    #skills {
-      font-size: 2vw;
-      left: 70%;
-      top:55%;
-  }
-    #box-fifth h1 {
-      top: 9%;
-      font-size: 40px;
-    }
-    #jesli {
-      left: 50%;
-      top:30%;
-      font-size: 2vw;
-    }
-    #email {
-      font-weight: 900;
-      left: 50%;
-      top:50%;
-      font-size: 2.5vw;
-    }
-      #czekam {
-      left: 50%;
-      top:70%;
-      font-size: 2vw;
-    }
-    #box-sixth h1 {
-      letter-spacing: 3px;
-      left: 50%;
-      top:25%;
-      font-size: 2vw;
-    }
-    #box-sixth h2 {
-      letter-spacing: 3px;
-      left: 50%;
-      top:50%;
-      font-size: 2vw;
-    }
-}
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
-    #box-wrapper h1{
-      font-size: 50px;
+    /* FIRST PAGE */
+    #box-wrapper h1 {
+        font-size: 25px;
+        transform: translateX(-50%) translateY(-220%);
     }
     #box-wrapper p {
-      font-size: 15px;
+        font-size: 8px;
     }
+    #me {
+        width: 60vw;
+        height: 60vh;
+        transform: translate(100px, 230px);
+    }
+
+    /* SECOND PAGE */
     #box-second h1 {
-      top: 15%;
-      font-size: 40px;
+        font-size: 25px;
     }
     #box-second h2 {
-      left: 50%;
-      top:50%;
-      font-size: 2vw;
-    }
-      #box-second h1 {
-      top: 9%;
-      left: 50%;
-      font-size: 40px;
-    }
-      #box-third h1 {
-      top: 9%;
-      left: 50%;
-      font-size: 40px;
-    }
-    #tablet {
-    width: 70vw;
-    height: 70vh;
-    transform: translate(-30%,30%);
-}
-    #skills {
-      font-size: 2vw;
-      left: 70%;
-      top:55%;
-  }
-      #box-fifth h1 {
-      top: 9%;
-      font-size: 40px;
-    }
-    #jesli {
-      left: 50%;
-      top:30%;
-      font-size: 2vw;
-    }
-    #email {
-      font-weight: 900;
-      left: 50%;
-      top:50%;
-      font-size: 2.5vw;
-    }
-      #czekam {
-      left: 50%;
-      top:70%;
-      font-size: 2vw;
-    }
-    #box-sixth h1 {
-      letter-spacing: 3px;
-      left: 50%;
-      top:25%;
-      font-size: 1.5vw;
-    }
-    #box-sixth h2 {
-      letter-spacing: 3px;
-      left: 50%;
-      top:50%;
-      font-size: 1.5vw;
-    }
-}
-@media (min-width:1281px) { /* hi-res laptops and desktops */ 
-    #box-wrapper h1{
-      font-size: 60px;
-    }
-    #box-wrapper p {
-      font-size: 20px;
+        left: 50%;
+        top: 45%;
+        font-size: 2.5vw;
     }
     #box-second h1 {
-      top: 15%;
-      font-size: 2vw;
+        top: 9%;
+        left: 50%;
+        font-size: 25px;
     }
-    #box-second h2 {
-      left: 50%;
-      top:50%;
-      font-size: 1.5vw;
-    }
+
+    /* THIRD PAGE */
     #box-third h1 {
-      top: 9%;
-      left: 50%;
-      font-size: 2vw;
+        top: 9%;
+        left: 50%;
+        font-size: 25px;
     }
     #tablet {
-    width: 70vw;
-    height: 70vh;
-    transform: translate(-30%,20%);
-}
+        width: 70vw;
+        height: 70vh;
+        transform: translate(-10px, 215px);
+    }
     #skills {
-      font-size: 2vw;
-      left: 70%;
-      top:50%;
-  }
-      #box-fifth h1 {
-      top: 9%;
-      font-size: 2vw;
+        font-size: 2.5vw;
+        left: 50%;
+        top: 33%;
+    }
+
+    /* FOURTH PAGE */
+    /* FIFTH PAGE */
+    #box-fifth h1 {
+        top: 9%;
+        font-size: 25px;
     }
     #jesli {
-      left: 50%;
-      top:30%;
-      font-size: 1.5vw;
+        left: 50%;
+        top: 30%;
+        font-size: 2.5vw;
     }
     #email {
-      font-weight: 900;
-      left: 50%;
-      top:50%;
-      font-size: 2vw;
+        font-weight: 900;
+        left: 50%;
+        top: 50%;
+        font-size: 3vw;
     }
-      #czekam {
-      left: 50%;
-      top:70%;
-      font-size: 1.5vw;
+    #czekam {
+        left: 50%;
+        top: 70%;
+        font-size: 2.5vw;
     }
     #box-sixth h1 {
-      letter-spacing: 3px;
-      left: 50%;
-      top:25%;
-      font-size: 1.5vw;
+        top: 9%;
+        font-size: 30px;
+    }
+
+    /* SIXTH PAGE */
+    #box-sixth h2 {
+        left: 50%;
+        top: 30%;
+        font-size: 3vw;
+    }
+    #box-sixth h1 {
+        letter-spacing: 3px;
+        left: 50%;
+        top: 25%;
+        font-size: 3vw;
     }
     #box-sixth h2 {
-      letter-spacing: 3px;
-      left: 50%;
-      top:50%;
-      font-size: 1.5vw;
+        letter-spacing: 3px;
+        left: 50%;
+        top: 50%;
+        font-size: 3vw;
     }
 }
 
-body, html {
-  height:100vh;
-  font-size: 0px;
-  margin:0; 
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width: 641px) {
+
+    /* FIRST PAGE */
+    #box-wrapper h1 {
+        font-size: 30px;
+        transform: translateX(-15%) translateY(-50%);
+    }
+    #box-wrapper p {
+        font-size: 9px;
+    }
+    #me {
+        width: 80vw;
+        height: 80vh;
+        transform: translate(-130px, 50px);
+    }
+
+    /* SECOND PAGE */
+    #box-second h1 {
+        top: 10%;
+        font-size: 35px;
+    }
+    #box-second h2 {
+        left: 50%;
+        top: 45%;
+        font-size: 2vw;
+    }
+    #box-second h1 {
+        top: 9%;
+        left: 50%;
+        font-size: 35px;
+    }
+
+    /* THIRD PAGE */
+    #box-third h1 {
+        top: 9%;
+        left: 50%;
+        font-size: 35px;
+    }
+    #tablet {
+        width: 70vw;
+        height: 70vh;
+        transform: translate(-30%, 30%);
+    }
+    #skills {
+        font-size: 2.5vw;
+        left: 75%;
+        top: 57%;
+    }
+
+    /* FOURTH PAGE */
+    /* FIFTH PAGE */
+    #box-fifth h1 {
+        top: 9%;
+        font-size: 35px;
+    }
+    #jesli {
+        left: 50%;
+        top: 30%;
+        font-size: 2vw;
+    }
+    #email {
+        font-weight: 900;
+        left: 50%;
+        top: 50%;
+        font-size: 3vw;
+    }
+    #czekam {
+        left: 50%;
+        top: 70%;
+        font-size: 2vw;
+    }
+
+    /* SIXTH PAGE */
+    #box-sixth h1 {
+        letter-spacing: 3px;
+        left: 50%;
+        top: 25%;
+        font-size: 2.5vw;
+    }
+    #box-sixth h2 {
+        letter-spacing: 3px;
+        left: 50%;
+        top: 50%;
+        font-size: 2.5vw;
+    }
+}
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+
+@media (min-width: 961px) {
+
+     /* FIRST PAGE */
+    #box-wrapper h1 {
+        font-size: 30px;
+        transform: translateX(-20%) translateY(-50%);
+    }
+    #box-wrapper p {
+        font-size: 10px;
+    }
+    #me {
+        width: 95vw;
+        height: 95vh;
+        transform: translate(-250px, 40px);
+    }
+
+    /* SECOND PAGE */
+    #box-second h1 {
+        font-size: 40px;
+    }
+    #box-second h2 {
+        left: 50%;
+        top: 45%;
+        font-size: 2vw;
+    }
+    #box-second h1 {
+        top: 9%;
+        left: 50%;
+        font-size: 40px;
+    }
+
+    /* THIRD PAGE */
+    #box-third h1 {
+        top: 9%;
+        left: 50%;
+        font-size: 40px;
+    }
+    #tablet {
+        width: 70vw;
+        height: 70vh;
+        transform: translate(-30%, 20%);
+    }
+    #skills {
+        font-size: 2vw;
+        left: 70%;
+        top: 55%;
+    }
+
+    /* FOURTH PAGE */
+    /* FIFTH PAGE */
+    #box-fifth h1 {
+        top: 9%;
+        font-size: 40px;
+    }
+    #jesli {
+        left: 50%;
+        top: 30%;
+        font-size: 2vw;
+    }
+    #email {
+        font-weight: 900;
+        left: 50%;
+        top: 50%;
+        font-size: 2.5vw;
+    }
+    #czekam {
+        left: 50%;
+        top: 70%;
+        font-size: 2vw;
+    }
+
+    /* SIXTH PAGE */
+    #box-sixth h1 {
+        letter-spacing: 3px;
+        left: 50%;
+        top: 25%;
+        font-size: 2vw;
+    }
+    #box-sixth h2 {
+        letter-spacing: 3px;
+        left: 50%;
+        top: 50%;
+        font-size: 2vw;
+    }
+}
+/* big landscape tablets, laptops, and desktops */
+
+@media (min-width: 1025px) {
+
+    /* FIRST PAGE */
+    #box-wrapper h1 {
+        font-size: 35px;
+        transform: translateX(-30%) translateY(-50%);
+    }
+    #box-wrapper p {
+        font-size: 9px;
+    }
+    #me {
+        width: 95vw;
+        height: 95vh;
+        transform: translate(-300px, 40px);
+    }
+
+    /* SECOND PAGE */
+    #box-second h1 {
+        top: 15%;
+        font-size: 40px;
+    }
+    #box-second h2 {
+        left: 50%;
+        top: 50%;
+        font-size: 2vw;
+    }
+    #box-second h1 {
+        top: 9%;
+        left: 50%;
+        font-size: 40px;
+    }
+    #box-third h1 {
+        top: 9%;
+        left: 50%;
+        font-size: 40px;
+    }
+    #tablet {
+        width: 70vw;
+        height: 70vh;
+        transform: translate(-30%, 30%);
+    }
+    #skills {
+        font-size: 2vw;
+        left: 70%;
+        top: 55%;
+    }
+    #box-fifth h1 {
+        top: 9%;
+        font-size: 40px;
+    }
+    #jesli {
+        left: 50%;
+        top: 30%;
+        font-size: 2vw;
+    }
+    #email {
+        font-weight: 900;
+        left: 50%;
+        top: 50%;
+        font-size: 2.5vw;
+    }
+    #czekam {
+        left: 50%;
+        top: 70%;
+        font-size: 2vw;
+    }
+    #box-sixth h1 {
+        letter-spacing: 3px;
+        left: 50%;
+        top: 25%;
+        font-size: 1.5vw;
+    }
+    #box-sixth h2 {
+        letter-spacing: 3px;
+        left: 50%;
+        top: 50%;
+        font-size: 1.5vw;
+    }
+}
+
+/* hi-res laptops and desktops */
+
+@media (min-width: 1281px) {
+    /* FIRST PAGE */
+    
+    #box-wrapper h1 {
+        font-size: 35px;
+        transform: translateX(-30%) translateY(-50%);
+    }
+    #box-wrapper p {
+        font-size: 9px;
+    }
+    #me {
+        width: 95vw;
+        height: 95vh;
+        transform: translate(-400px, 40px);
+    }
+    /* SECOND PAGE */
+    
+    #box-second h1 {
+        top: 15%;
+        font-size: 2vw;
+    }
+    #box-second h2 {
+        left: 50%;
+        top: 50%;
+        font-size: 1.5vw;
+    }
+    /* THIRD PAGE */
+    
+    #box-third h1 {
+        top: 9%;
+        left: 50%;
+        font-size: 2vw;
+    }
+    #tablet {
+        width: 70vw;
+        height: 70vh;
+        transform: translate(-30%, 20%);
+    }
+    /* FOURTH PAGE */
+    
+    #skills {
+        font-size: 2vw;
+        left: 70%;
+        top: 50%;
+    }
+    /* FIFTH PAGE */
+    
+    #box-fifth h1 {
+        top: 9%;
+        font-size: 2vw;
+    }
+    #jesli {
+        left: 50%;
+        top: 30%;
+        font-size: 1.5vw;
+    }
+    #email {
+        font-weight: 900;
+        left: 50%;
+        top: 50%;
+        font-size: 2vw;
+    }
+    #czekam {
+        left: 50%;
+        top: 70%;
+        font-size: 1.5vw;
+    }
+    /* SIXTH PAGE */
+    
+    #box-sixth h1 {
+        letter-spacing: 3px;
+        left: 50%;
+        top: 25%;
+        font-size: 1.5vw;
+    }
+    #box-sixth h2 {
+        letter-spacing: 3px;
+        left: 50%;
+        top: 50%;
+        font-size: 1.5vw;
+    }
+}
+body,
+html {
+    height: 100vh;
+    font-size: 0px;
+    margin: 0;
 }
 #pinContainer {
-  width: 100%;
-  height:100vh;
-  overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
 }
 .panel {
-  height:100vh;
-  width: 100%;
-  position: absolute;
-  text-align:center;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    text-align: center;
 }
 b {
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  position:relative;
-  font-size:30px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+    font-size: 30px;
 }
