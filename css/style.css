@@ -101,6 +101,7 @@ h2 {
     color: #202020;
 }
 
+
     /* smartphones, iPhone, portrait 480x320 phones */
 @media (min-width: 300px) {
     
@@ -458,6 +459,7 @@ h2 {
         transform: translate(-80%, -10%);
     }
     #html, #css, #js, #photoshop, #bootstrap {
+        margin-top: 11%;
         width: 15vw;
         height: 15vh;
     }
@@ -551,6 +553,7 @@ h2 {
         transform: translate(-80%, -10%);
     }
     #html, #css, #js, #photoshop, #bootstrap, #rwd, #illustrator, #inkscape, #gimp {
+        margin-top: 9%;
         width: 16vw;
         height: 16vh;
     }
@@ -643,6 +646,7 @@ h2 {
         transform: translate(-80%, -30%);
     }
     #html, #css, #js, #photoshop, #bootstrap, #rwd, #illustrator, #inkscape, #gimp {
+        margin-top: 10%;
         width: 17vw;
         height: 17vh;
     }
