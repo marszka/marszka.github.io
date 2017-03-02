@@ -11,6 +11,9 @@
     height: 100vh;
     font-family: 'MyFontName', Fallback, sans-serif;
 }
+#projects_games {
+    display: inline-block;
+}
 /* BACKGROUND-COLOR */
 
 #box-wrapper {
@@ -71,6 +74,7 @@
 #box-second h1,
 ul.a,
 #box-third h1,
+#box-fourth h1,
 #box-fifth h1,
 #box-fifth h2,
 #box-sixth h1,
@@ -85,12 +89,18 @@ h2 {
 #box-second ul.a {
     text-align: left;
 }
-
-#js, #bootstrap, #css, #html, #illustrator,  #photoshop,  #inkscape, #gimp, #rwd {
-        width: 20vw;
-        height: 20vh;
-    }
-    
+#js,
+#bootstrap,
+#css,
+#html,
+#illustrator,
+#photoshop,
+#inkscape,
+#gimp,
+#rwd {
+    width: 20vw;
+    height: 20vh;
+}
 #box-fifth h1,
 h2 {
     color: white;
@@ -100,12 +110,11 @@ h2 {
 #box-sixth h2 {
     color: #202020;
 }
+/* smartphones, iPhone, portrait 480x320 phones */
 
-
-    /* smartphones, iPhone, portrait 480x320 phones */
 @media (min-width: 300px) {
-    
     /* FIRST PAGE */
+    
     #box-wrapper h1 {
         font-size: 15px;
         transform: translateX(-50%) translateY(-320%);
@@ -135,34 +144,62 @@ h2 {
         height: 45vh;
         transform: translate(-20px, 330px);
     }
-
-/* THIRD PAGE */
+    /* THIRD PAGE */
     
     #box-third h1 {
         top: 6%;
         font-size: 5vw;
     }
-
     #myskills {
         width: 50vw;
         height: 50vh;
         transform: translate(-10%, -7%);
     }
-    
-    #html, #css, #js, #photoshop {
+    #html,
+    #css,
+    #js,
+    #photoshop {
         margin-top: 20%;
         width: 18vw;
         height: 18vh;
     }
-
-    #bootstrap, #illustrator, #inkscape, #gimp {
+    #bootstrap,
+    #illustrator,
+    #inkscape,
+    #gimp {
         margin-top: 2%;
         width: 18vw;
         height: 18vh;
     }
-
-/* FOURTH PAGE */
-/* FIFTH PAGE */
+    /* FOURTH PAGE */
+    
+    #box-fourth h1 {
+        top: 6%;
+        font-size: 5vw;
+    }
+    #firstgame,
+    #secondgame,
+    #thirdgame {
+        float: left;
+        margin: 30px;
+        top: 10vh;
+    }
+    .ih-item.circle {
+        position: relative;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+    }
+    .ih-item.circle .img {
+        position: relative;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+    }
+    .ih-item.circle .img:before {
+        box-shadow: inset 0 0 0 4px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+    }
+    /* FIFTH PAGE */
     
     #box-fifth h1 {
         top: 9%;
@@ -184,8 +221,8 @@ h2 {
         top: 70%;
         font-size: 3vw;
     }
-
-/* SIXTH PAGE */
+    /* SIXTH PAGE */
+    
     #box-sixth h1 {
         letter-spacing: 3px;
         left: 50%;
@@ -209,10 +246,11 @@ h2 {
 }
 */
 }
-    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+
 @media (min-width: 481px) {
-    
     /* FIRST PAGE */
+    
     #box-wrapper h1 {
         font-size: 25px;
         transform: translateX(-50%) translateY(-220%);
@@ -225,7 +263,6 @@ h2 {
         height: 60vh;
         transform: translate(100px, 230px);
     }
-
     /* SECOND PAGE */
     
     #box-second h1 {
@@ -243,8 +280,8 @@ h2 {
         height: 40vh;
         transform: translate(100px, 330px);
     }
-
     /* THIRD PAGE */
+    
     #box-third h1 {
         top: 9%;
         left: 50%;
@@ -255,21 +292,53 @@ h2 {
         height: 40vh;
         transform: translate(-10%, 20%);
     }
-    
-    #html, #css, #js, #photoshop {
+    #html,
+    #css,
+    #js,
+    #photoshop {
         margin-top: 20%;
         width: 13vw;
         height: 13vh;
     }
-
-    #bootstrap, #illustrator, #inkscape, #gimp {
+    #bootstrap,
+    #illustrator,
+    #inkscape,
+    #gimp {
         margin-top: 2%;
         width: 13vw;
         height: 13vh;
     }
-
     /* FOURTH PAGE */
+    
+    #box-fourth h1 {
+        top: 9%;
+        left: 50%;
+        font-size: 25px;
+    }
+    #firstgame,
+    #secondgame,
+    #thirdgame {
+        float: left;
+        margin: 60px;
+        top: 10vh;
+    }
+    .ih-item.circle {
+        position: relative;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+    }
+    .ih-item.circle .img {
+        position: relative;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+    }
+    .ih-item.circle .img:before {
+        box-shadow: inset 0 0 0 6px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+    }
     /* FIFTH PAGE */
+    
     #box-fifth h1 {
         top: 9%;
         font-size: 25px;
@@ -294,8 +363,8 @@ h2 {
         top: 9%;
         font-size: 30px;
     }
-
     /* SIXTH PAGE */
+    
     #box-sixth h2 {
         left: 50%;
         top: 30%;
@@ -314,11 +383,11 @@ h2 {
         font-size: 3vw;
     }
 }
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 
-    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 @media (min-width: 641px) {
-
     /* FIRST PAGE */
+    
     #box-wrapper h1 {
         font-size: 30px;
         transform: translateX(-15%) translateY(-50%);
@@ -331,7 +400,6 @@ h2 {
         height: 80vh;
         transform: translate(-130px, 50px);
     }
-
     /* SECOND PAGE */
     
     #box-second h1 {
@@ -349,8 +417,8 @@ h2 {
         height: 45vh;
         transform: translate(-230px, 150px);
     }
-
     /* THIRD PAGE */
+    
     #box-third h1 {
         top: 9%;
         left: 50%;
@@ -361,21 +429,53 @@ h2 {
         height: 40vh;
         transform: translate(-10%, 15%);
     }
-    
-    #html, #css, #js, #photoshop {
+    #html,
+    #css,
+    #js,
+    #photoshop {
         margin-top: 15%;
         width: 13vw;
         height: 13vh;
     }
-
-    #bootstrap, #illustrator, #inkscape, #gimp {
+    #bootstrap,
+    #illustrator,
+    #inkscape,
+    #gimp {
         margin-top: 2%;
         width: 13vw;
         height: 13vh;
     }
-
     /* FOURTH PAGE */
+    
+    #box-fourth h1 {
+        top: 9%;
+        left: 50%;
+        font-size: 35px;
+    }
+    #firstgame,
+    #secondgame,
+    #thirdgame {
+        float: left;
+        margin: 60px;
+        top: 10vh;
+    }
+    .ih-item.circle {
+        position: relative;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+    }
+    .ih-item.circle .img {
+        position: relative;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+    }
+    .ih-item.circle .img:before {
+        box-shadow: inset 0 0 0 8px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+    }
     /* FIFTH PAGE */
+    
     #box-fifth h1 {
         top: 9%;
         font-size: 35px;
@@ -396,8 +496,8 @@ h2 {
         top: 70%;
         font-size: 2vw;
     }
-
     /* SIXTH PAGE */
+    
     #box-sixth h1 {
         letter-spacing: 3px;
         left: 50%;
@@ -414,8 +514,8 @@ h2 {
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 
 @media (min-width: 961px) {
-
-     /* FIRST PAGE */
+    /* FIRST PAGE */
+    
     #box-wrapper h1 {
         font-size: 30px;
         transform: translateX(-20%) translateY(-50%);
@@ -428,7 +528,6 @@ h2 {
         height: 95vh;
         transform: translate(-250px, 40px);
     }
-
     /* SECOND PAGE */
     
     #box-second h1 {
@@ -446,7 +545,6 @@ h2 {
         height: 60vh;
         transform: translate(-320px, 90px);
     }
-
     /* THIRD PAGE */
     
     #box-third h1 {
@@ -458,19 +556,53 @@ h2 {
         height: 45vh;
         transform: translate(-80%, -10%);
     }
-    #html, #css, #js, #photoshop, #bootstrap {
+    #html,
+    #css,
+    #js,
+    #photoshop,
+    #bootstrap {
         margin-top: 11%;
         width: 15vw;
         height: 15vh;
     }
-     #bootstrap, #illustrator, #inkscape, #gimp {
+    #bootstrap,
+    #illustrator,
+    #inkscape,
+    #gimp {
         margin-top: 3%;
         width: 15vw;
         height: 15vh;
-     }
-
+    }
     /* FOURTH PAGE */
+    
+    #box-fourth h1 {
+        top: 10%;
+        font-size: 2.5vw;
+    }
+    #firstgame,
+    #secondgame,
+    #thirdgame {
+        float: left;
+        margin: 60px;
+        top: 10vh;
+    }
+    .ih-item.circle {
+        position: relative;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+    }
+    .ih-item.circle .img {
+        position: relative;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+    }
+    .ih-item.circle .img:before {
+        box-shadow: inset 0 0 0 10px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+    }
     /* FIFTH PAGE */
+    
     #box-fifth h1 {
         top: 9%;
         font-size: 40px;
@@ -491,8 +623,8 @@ h2 {
         top: 70%;
         font-size: 2vw;
     }
-
     /* SIXTH PAGE */
+    
     #box-sixth h1 {
         letter-spacing: 3px;
         left: 50%;
@@ -509,8 +641,8 @@ h2 {
 /* big landscape tablets, laptops, and desktops */
 
 @media (min-width: 1025px) {
-
     /* FIRST PAGE */
+    
     #box-wrapper h1 {
         font-size: 35px;
         transform: translateX(-30%) translateY(-50%);
@@ -523,7 +655,6 @@ h2 {
         height: 95vh;
         transform: translate(-300px, 40px);
     }
-
     /* SECOND PAGE */
     
     #box-second h1 {
@@ -552,19 +683,57 @@ h2 {
         height: 45vh;
         transform: translate(-80%, -10%);
     }
-    #html, #css, #js, #photoshop, #bootstrap, #rwd, #illustrator, #inkscape, #gimp {
+    #html,
+    #css,
+    #js,
+    #photoshop,
+    #bootstrap,
+    #rwd,
+    #illustrator,
+    #inkscape,
+    #gimp {
         margin-top: 9%;
         width: 16vw;
         height: 16vh;
     }
-     #bootstrap, #illustrator, #inkscape, #gimp {
+    #bootstrap,
+    #illustrator,
+    #inkscape,
+    #gimp {
         margin-top: 3%;
         width: 16vw;
         height: 16vh;
-     }
-
+    }
     /* FOURTH PAGE */
+    
+    #box-fourth h1 {
+        top: 10%;
+        font-size: 2.5vw;
+    }
+    #firstgame,
+    #secondgame,
+    #thirdgame {
+        float: left;
+        margin: 60px;
+        top: 10vh;
+    }
+    .ih-item.circle {
+        position: relative;
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+    }
+    .ih-item.circle .img {
+        position: relative;
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+    }
+    .ih-item.circle .img:before {
+        box-shadow: inset 0 0 0 12px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+    }
     /* FIFTH PAGE */
+    
     #box-fifth h1 {
         top: 9%;
         font-size: 40px;
@@ -598,7 +767,6 @@ h2 {
         font-size: 1.5vw;
     }
 }
-
 /* hi-res laptops and desktops */
 
 @media (min-width: 1281px) {
@@ -645,20 +813,56 @@ h2 {
         height: 50vh;
         transform: translate(-80%, -30%);
     }
-    #html, #css, #js, #photoshop, #bootstrap, #rwd, #illustrator, #inkscape, #gimp {
+    #html,
+    #css,
+    #js,
+    #photoshop,
+    #bootstrap,
+    #rwd,
+    #illustrator,
+    #inkscape,
+    #gimp {
         margin-top: 10%;
         width: 17vw;
         height: 17vh;
     }
-
-     #bootstrap, #illustrator, #inkscape, #gimp {
+    #bootstrap,
+    #illustrator,
+    #inkscape,
+    #gimp {
         margin-top: 3%;
         width: 17vw;
         height: 17vh;
-     }
-
+    }
     /* FOURTH PAGE */
-
+    
+    #box-fourth h1 {
+        top: 9%;
+        left: 50%;
+        font-size: 2vw;
+    }
+    #firstgame,
+    #secondgame,
+    #thirdgame {
+        float: left;
+        margin: 60px;
+        top: 10vh;
+    }
+    .ih-item.circle {
+        position: relative;
+        width: 220px;
+        height: 220px;
+        border-radius: 50%;
+    }
+    .ih-item.circle .img {
+        position: relative;
+        width: 220px;
+        height: 220px;
+        border-radius: 50%;
+    }
+    .ih-item.circle .img:before {
+        box-shadow: inset 0 0 0 14px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+    }
     /* FIFTH PAGE */
     
     #box-fifth h1 {
@@ -724,4 +928,6 @@ b {
 ul.a {
     list-style-type: circle;
 }
-
+.ih-item.circle.effect16.colored .info {
+    background: #18121E;
+}
