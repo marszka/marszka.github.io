@@ -101,6 +101,20 @@ h2 {
     width: 20vw;
     height: 20vh;
 }
+
+#js:hover,
+#bootstrap:hover,
+#css:hover,
+#html:hover,
+#illustrator:hover,
+#photoshop:hover,
+#inkscape:hover,
+#gimp:hover,
+#rwd:hover {
+                    width: 300px;
+    -webkit-transition: all 1s ease;
+}
+
 #box-fifth h1,
 h2 {
     color: white;
@@ -151,25 +165,29 @@ h2 {
         font-size: 5vw;
     }
     #myskills {
-        width: 50vw;
-        height: 50vh;
+        width: 45vw;
+        height: 45vh;
         transform: translate(-10%, -7%);
     }
     #html,
     #css,
     #js,
-    #photoshop {
-        margin-top: 20%;
-        width: 18vw;
-        height: 18vh;
-    }
+    #photoshop,
     #bootstrap,
+    #rwd,
     #illustrator,
     #inkscape,
     #gimp {
+        margin-top: 20%;
+        width: 14vw;
+        height: 14vh;
+    }
+    #photoshop,
+    #illustrator,
+    #inkscape,
+    #gimp,
+    #rwd {
         margin-top: 2%;
-        width: 18vw;
-        height: 18vh;
     }
     /* FOURTH PAGE */
     
@@ -288,25 +306,29 @@ h2 {
         font-size: 25px;
     }
     #myskills {
-        width: 40vw;
-        height: 40vh;
-        transform: translate(-10%, 20%);
+        width: 35vw;
+        height: 35vh;
+        transform: translate(-10%, -2%);
     }
     #html,
     #css,
     #js,
-    #photoshop {
-        margin-top: 20%;
-        width: 13vw;
-        height: 13vh;
-    }
+    #photoshop,
     #bootstrap,
+    #rwd,
     #illustrator,
     #inkscape,
     #gimp {
-        margin-top: 2%;
+        margin-top: 17%;
         width: 13vw;
         height: 13vh;
+    }
+    #photoshop,
+    #illustrator,
+    #inkscape,
+    #gimp,
+    #rwd {
+        margin-top: 2%;
     }
     /* FOURTH PAGE */
     
@@ -427,23 +449,27 @@ h2 {
     #myskills {
         width: 40vw;
         height: 40vh;
-        transform: translate(-10%, 15%);
+        transform: translate(-60%, -20%);
     }
     #html,
     #css,
     #js,
-    #photoshop {
+    #photoshop,
+    #bootstrap,
+    #rwd,
+    #illustrator,
+    #inkscape,
+    #gimp {
         margin-top: 15%;
         width: 13vw;
         height: 13vh;
     }
-    #bootstrap,
+    #photoshop,
     #illustrator,
     #inkscape,
-    #gimp {
+    #gimp,
+    #rwd {
         margin-top: 2%;
-        width: 13vw;
-        height: 13vh;
     }
     /* FOURTH PAGE */
     
@@ -554,24 +580,27 @@ h2 {
     #myskills {
         width: 45vw;
         height: 45vh;
-        transform: translate(-80%, -10%);
+        transform: translate(-70%, -50%);
     }
     #html,
     #css,
     #js,
     #photoshop,
-    #bootstrap {
+    #bootstrap,
+    #rwd,
+    #illustrator,
+    #inkscape,
+    #gimp {
         margin-top: 11%;
         width: 15vw;
         height: 15vh;
     }
-    #bootstrap,
+    #photoshop,
     #illustrator,
     #inkscape,
-    #gimp {
+    #gimp,
+    #rwd {
         margin-top: 3%;
-        width: 15vw;
-        height: 15vh;
     }
     /* FOURTH PAGE */
     
@@ -681,7 +710,7 @@ h2 {
     #myskills {
         width: 45vw;
         height: 45vh;
-        transform: translate(-80%, -10%);
+        transform: translate(-80%, -50%);
     }
     #html,
     #css,
@@ -696,13 +725,12 @@ h2 {
         width: 16vw;
         height: 16vh;
     }
-    #bootstrap,
+    #photoshop,
     #illustrator,
     #inkscape,
-    #gimp {
+    #gimp,
+    #rwd {
         margin-top: 3%;
-        width: 16vw;
-        height: 16vh;
     }
     /* FOURTH PAGE */
     
@@ -811,7 +839,7 @@ h2 {
     #myskills {
         width: 50vw;
         height: 50vh;
-        transform: translate(-80%, -30%);
+        transform: translate(-70%, -70%);
     }
     #html,
     #css,
@@ -825,15 +853,16 @@ h2 {
         margin-top: 10%;
         width: 17vw;
         height: 17vh;
+        margin-right: -3%;
     }
-    #bootstrap,
+    #photoshop,
     #illustrator,
     #inkscape,
-    #gimp {
+    #gimp,
+    #rwd {
         margin-top: 3%;
-        width: 17vw;
-        height: 17vh;
     }
+
     /* FOURTH PAGE */
     
     #box-fourth h1 {
@@ -928,6 +957,6 @@ b {
 ul.a {
     list-style-type: circle;
 }
-.ih-item.circle.effect16.colored .info {
+.ih-item.circle.effect13.colored .info {
     background: #18121E;
 }

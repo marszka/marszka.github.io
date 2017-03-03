@@ -17,3 +17,72 @@ $(function () { // wait for document ready
      .setTween(wipeAnimation)
      .addTo(controller);
 });
+
+var firstImagesChange = document.getElementById("changeFirst");
+var secondImagesChange = document.getElementById("changeSecond");
+var thirdImagesChange = document.getElementById("changeThird");
+
+var imagesForFirstGame = ["img/first_but_first.png","img/first_but_second.png","img/first_but_third.png","img/first_game.png"];
+var imagesForSecondGame = ["img/second_but_first.png","img/second_but_second.png","img/second_but_third.png","img/second_game.png"];
+var imagesForThirdGame = ["img/third_but_first.png","img/third_but_second.png","img/third_but_third.png","img/third_game.png"];
+
+var indexFirst=0;
+var indexSecond=0;
+var indexThird=0;
+
+function changeFirstImages()
+{
+  firstImagesChange.setAttribute("src", imagesForFirstGame[indexFirst]);
+  indexFirst++;
+  if(indexFirst >= imagesForFirstGame.length)
+  {
+    indexFirst=0;
+  }
+}
+
+function changeSecondImages()
+{
+  secondImagesChange.setAttribute("src", imagesForSecondGame[indexSecond]);
+  indexSecond++;
+  if(indexSecond >= imagesForSecondGame.length)
+  {
+    indexSecond=0;
+  }
+}
+
+function changeThirdImages()
+{
+  thirdImagesChange.setAttribute("src", imagesForThirdGame[indexThird]);
+  indexThird++;
+  if(indexThird >= imagesForThirdGame.length)
+  {
+    indexThird=0;
+  }
+}
+
+setInterval(changeFirstImages, 1500);
+setInterval(changeSecondImages, 1500);
+setInterval(changeThirdImages, 1500);
+/*
+setTimeout ( "ZmianaObrazka()", 1000 );
+
+function ZmianaObrazka ( ) { 
+if(document.getElementById("changeFirst").src="img/first_but_first.png") {
+  document.getElementById("changeFirst").src="img/first_but_second.png";
+  setTimeout ( "ZmianaObrazka()", 1000 );
+} else if(document.getElementById("changeFirst").src="img/first_but_second.png") {
+    document.getElementById("changeFirst").src="img/first_but_third.png";
+} 
+}
+
+setTimeout ( "ZmianaObrazka2()", 1000 );
+
+function ZmianaObrazka2 ( ) {
+
+if(document.getElementById("changeSecond").src="img/second_but_first.png") {
+  document.getElementById("changeSecond").src="img/second_but_second.png";
+  setTimeout ( "ZmianaObrazka()", 1000 );
+} else if(document.getElementById("changeSecond").src="img/second_but_second.png"){
+    document.getElementById("changeSecond").src="img/second_but_third.png";
+}
+}*/
