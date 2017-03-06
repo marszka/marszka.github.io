@@ -89,31 +89,6 @@ h2 {
 #box-second ul.a {
     text-align: left;
 }
-#js,
-#bootstrap,
-#css,
-#html,
-#illustrator,
-#photoshop,
-#inkscape,
-#gimp,
-#rwd {
-    width: 20vw;
-    height: 20vh;
-}
-
-#js:hover,
-#bootstrap:hover,
-#css:hover,
-#html:hover,
-#illustrator:hover,
-#photoshop:hover,
-#inkscape:hover,
-#gimp:hover,
-#rwd:hover {
-                    width: 300px;
-    -webkit-transition: all 1s ease;
-}
 
 #box-fifth h1,
 h2 {
@@ -156,7 +131,7 @@ h2 {
     #hello {
         width: 55vw;
         height: 55vh;
-        transform: translate(-10%, 50%);
+        transform: translate(-10%, 70%);
     }
     /* THIRD PAGE */
     

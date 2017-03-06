@@ -63,26 +63,3 @@ function changeThirdImages()
 setInterval(changeFirstImages, 1500);
 setInterval(changeSecondImages, 1500);
 setInterval(changeThirdImages, 1500);
-/*
-setTimeout ( "ZmianaObrazka()", 1000 );
-
-function ZmianaObrazka ( ) { 
-if(document.getElementById("changeFirst").src="img/first_but_first.png") {
-  document.getElementById("changeFirst").src="img/first_but_second.png";
-  setTimeout ( "ZmianaObrazka()", 1000 );
-} else if(document.getElementById("changeFirst").src="img/first_but_second.png") {
-    document.getElementById("changeFirst").src="img/first_but_third.png";
-} 
-}
-
-setTimeout ( "ZmianaObrazka2()", 1000 );
-
-function ZmianaObrazka2 ( ) {
-
-if(document.getElementById("changeSecond").src="img/second_but_first.png") {
-  document.getElementById("changeSecond").src="img/second_but_second.png";
-  setTimeout ( "ZmianaObrazka()", 1000 );
-} else if(document.getElementById("changeSecond").src="img/second_but_second.png"){
-    document.getElementById("changeSecond").src="img/second_but_third.png";
-}
-}*/
