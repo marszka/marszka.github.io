@@ -71,6 +71,12 @@
     left: 3%;
     /* IMPORTANT */
 }
+
+#box-second h1,
+#box-fourth h1,
+#box-sixth h1 {
+    color: #18121E;
+}
 #box-second h1,
 ul.a,
 #box-third h1,
