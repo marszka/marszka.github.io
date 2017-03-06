@@ -130,8 +130,8 @@ h2 {
     /* FIRST PAGE */
     
     #box-wrapper h1 {
-        font-size: 15px;
-        transform: translateX(-50%) translateY(-320%);
+        font-size: 18px;
+        transform: translateX(-50%) translateY(-300%);
     }
     #box-wrapper p {
         font-size: 8px;
@@ -139,7 +139,7 @@ h2 {
     #me {
         width: 65vw;
         height: 65vh;
-        transform: translate(60px, 230px);
+        transform: translate(25%, 50%);
     }
     /* SECOND PAGE */
     
@@ -150,13 +150,13 @@ h2 {
     ul.a {
         left: 50%;
         top: 37%;
-        font-size: 15px;
+        font-size: 17px;
         width: 270px;
     }
     #hello {
-        width: 45vw;
-        height: 45vh;
-        transform: translate(-20px, 330px);
+        width: 65vw;
+        height: 65vh;
+        transform: translate(-10%, 70%);
     }
     /* THIRD PAGE */
     
@@ -167,7 +167,7 @@ h2 {
     #myskills {
         width: 45vw;
         height: 45vh;
-        transform: translate(-10%, -7%);
+        transform: translate(-10%, -20%);
     }
     #html,
     #css,
@@ -179,15 +179,15 @@ h2 {
     #inkscape,
     #gimp {
         margin-top: 20%;
-        width: 14vw;
-        height: 14vh;
+        width: 20vw;
+        height: 20vh;
     }
     #photoshop,
     #illustrator,
     #inkscape,
     #gimp,
     #rwd {
-        margin-top: 2%;
+        margin-top: 1%;
     }
     /* FOURTH PAGE */
     
@@ -199,19 +199,19 @@ h2 {
     #secondgame,
     #thirdgame {
         float: left;
-        margin: 30px;
-        top: 10vh;
+        margin: 20px;
+        top: 20vh;
     }
     .ih-item.circle {
         position: relative;
-        width: 90px;
-        height: 90px;
+        width: 160px;
+        height: 160px;
         border-radius: 50%;
     }
     .ih-item.circle .img {
         position: relative;
-        width: 90px;
-        height: 90px;
+        width: 160px;
+        height: 160px;
         border-radius: 50%;
     }
     .ih-item.circle .img:before {
@@ -279,7 +279,7 @@ h2 {
     #me {
         width: 60vw;
         height: 60vh;
-        transform: translate(100px, 230px);
+        transform: translate(30%, 70%);
     }
     /* SECOND PAGE */
     
@@ -290,13 +290,13 @@ h2 {
     ul.a {
         left: 50%;
         top: 35%;
-        font-size: 15px;
+        font-size: 17px;
         width: 370px;
     }
     #hello {
-        width: 40vw;
-        height: 40vh;
-        transform: translate(100px, 330px);
+        width: 50vw;
+        height: 50vh;
+        transform: translate(-10%, 100%);
     }
     /* THIRD PAGE */
     
@@ -306,9 +306,9 @@ h2 {
         font-size: 25px;
     }
     #myskills {
-        width: 35vw;
-        height: 35vh;
-        transform: translate(-10%, -2%);
+        width: 50vw;
+        height: 50vh;
+        transform: translate(-10%, -1%);
     }
     #html,
     #css,
@@ -319,7 +319,7 @@ h2 {
     #illustrator,
     #inkscape,
     #gimp {
-        margin-top: 17%;
+        margin-top: 20%;
         width: 13vw;
         height: 13vh;
     }
