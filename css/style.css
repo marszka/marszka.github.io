@@ -131,7 +131,7 @@ h2 {
     #hello {
         width: 55vw;
         height: 55vh;
-        transform: translate(-10%, 80%);
+        transform: translate(-10%, 85%);
     }
     /* THIRD PAGE */
     
@@ -154,8 +154,8 @@ h2 {
     #inkscape,
     #gimp {
         margin-top: 20%;
-        width: 20vw;
-        height: 20vh;
+        width: 17vw;
+        height: 17vh;
     }
     #photoshop,
     #illustrator,
