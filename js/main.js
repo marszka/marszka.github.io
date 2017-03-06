@@ -5,8 +5,7 @@ $(function () { // wait for document ready
      var wipeAnimation = new TimelineMax()
          .fromTo("div.panel.second", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone})  // in from left
          .fromTo("div.panel.third",    1, {x:  "100%"}, {x: "0%", ease: Linear.easeNone})  // in from right
-         .fromTo("div.panel.fourth", 1, {y: "-100%"}, {y: "0%", ease: Linear.easeNone}) // in from top
-         .fromTo("div.panel.fifth", 1, {y: "100%"}, {y: "0%", ease: Linear.easeNone}); // in from bottom
+         .fromTo("div.panel.fourth", 1, {y: "-100%"}, {y: "0%", ease: Linear.easeNone}); // in from top
          // create scene to pin and link animation
      new ScrollMagic.Scene({
          triggerElement: "#pinContainer",
@@ -30,22 +29,18 @@ var indexFirst=0;
 var indexSecond=0;
 var indexThird=0;
 
-function changeFirstImages()
-{
+function changeFirstImages() {
   firstImagesChange.setAttribute("src", imagesForFirstGame[indexFirst]);
   indexFirst++;
-  if(indexFirst >= imagesForFirstGame.length)
-  {
+  if (indexFirst >= imagesForFirstGame.length) {
     indexFirst=0;
   }
 }
 
-function changeSecondImages()
-{
+function changeSecondImages() {
   secondImagesChange.setAttribute("src", imagesForSecondGame[indexSecond]);
   indexSecond++;
-  if(indexSecond >= imagesForSecondGame.length)
-  {
+  if (indexSecond >= imagesForSecondGame.length) {
     indexSecond=0;
   }
 }
