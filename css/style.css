@@ -150,13 +150,13 @@ h2 {
     ul.a {
         left: 50%;
         top: 37%;
-        font-size: 15px;
+        font-size: 13px;
         width: 270px;
     }
     #hello {
         width: 65vw;
         height: 65vh;
-        transform: translate(-10%, 60%);
+        transform: translate(-10%, 50%);
     }
     /* THIRD PAGE */
     
