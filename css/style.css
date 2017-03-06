@@ -131,7 +131,7 @@ h2 {
     #hello {
         width: 55vw;
         height: 55vh;
-        transform: translate(-10%, 90%);
+        transform: translate(-10%, 85%);
     }
     /* THIRD PAGE */
     
@@ -153,9 +153,9 @@ h2 {
     #illustrator,
     #inkscape,
     #gimp {
-        margin-top: 15%;
-        width: 15vw;
-        height: 15vh;
+        margin-top: 20%;
+        width: 20vw;
+        height: 20vh;
     }
     #photoshop,
     #illustrator,
@@ -174,19 +174,19 @@ h2 {
     #secondgame,
     #thirdgame {
         float: left;
-        margin: 20px;
+        margin: 15px;
         top: 20vh;
     }
     .ih-item.circle {
         position: relative;
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
     }
     .ih-item.circle .img {
         position: relative;
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
     }
     .ih-item.circle .img:before {
