@@ -154,9 +154,9 @@ h2 {
         width: 270px;
     }
     #hello {
-        width: 65vw;
-        height: 65vh;
-        transform: translate(-10%, 50%);
+        width: 55vw;
+        height: 55vh;
+        transform: translate(-10%, 45%);
     }
     /* THIRD PAGE */
     
