@@ -73,11 +73,6 @@
 }
 
 #box-second h1,
-#box-fourth h1,
-#box-sixth h1 {
-    color: #18121E;
-}
-#box-second h1,
 ul.a,
 #box-third h1,
 #box-fourth h1,
@@ -101,9 +96,11 @@ h2 {
     color: white;
     display: block;
 }
-#box-sixth h1,
-#box-sixth h2 {
-    color: #202020;
+
+#box-second h1,
+#box-fourth h1,
+#box-sixth h1 {
+    color: #18121E;
 }
 /* smartphones, iPhone, portrait 480x320 phones */
 
