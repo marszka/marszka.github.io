@@ -784,11 +784,11 @@ h2 {
     
     #box-wrapper h1 {
         font-size: 35px;
-        transform: translateX(-30%) translateY(-50%);
+        transform: translateX(-20%) translateY(-50%);
     }
     #box-wrapper p {
         font-size: 9px;
-        transform: translateX(10%) translateY(-50%);
+        transform: translateX(5%) translateY(-50%);
     }
     #me {
         width: 95vw;
