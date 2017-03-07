@@ -44,6 +44,11 @@
 }
 /* MY NAME */
 
+ul.a {
+font-family: 'Montserrat', sans-serif;
+font-size: 48px;
+
+}
 #box-wrapper h1 {
     text-align: center;
     position: absolute;
@@ -52,7 +57,6 @@
     letter-spacing: 20px;
     top: 50%;
     /* IMPORTANT */
-    
     left: 50%;
     /* IMPORTANT */
 }
@@ -72,7 +76,7 @@
 }
 
 #box-second h1,
-ul.a,
+p,
 #box-third h1,
 #box-fourth h1,
 #box-fifth h1,
@@ -96,12 +100,11 @@ h2 {
     display: block;
 }
 
-#box-second h1,  ul.a,
+#box-second h1,  p,
 #box-fourth h1,
 #box-sixth h1 {
-    color: #18121E;
+    color: #292f33;
 }
-
 
 /* smartphones, iPhone, portrait 480x320 phones */
 
@@ -797,10 +800,10 @@ h2 {
         top: 15%;
         font-size: 2vw;
     }
-    ul.a {
+    p {
         left: 30%;
         top: 45%;
-        font-size: 1.1vw;
+        font-size: 1.3vw;
         width: 450px;
     }
     #hello {
@@ -812,6 +815,12 @@ h2 {
     #cloud {
         width: 100vw;
         height: 100vh;
+        transform: translate(-20%, -10%);
+    }
+
+    #school {
+        width: 15vw;
+        height: 15vh;
         transform: translate(-20%, -10%);
     }
     /* THIRD PAGE */
@@ -879,40 +888,9 @@ h2 {
     }
     /* FIFTH PAGE */
     
-    #box-fifth h1 {
-        top: 9%;
-        font-size: 2vw;
-    }
-    #jesli {
-        left: 50%;
-        top: 30%;
-        font-size: 1.5vw;
-    }
-    #email {
-        font-weight: 900;
-        left: 50%;
-        top: 50%;
-        font-size: 2vw;
-    }
-    #czekam {
-        left: 50%;
-        top: 70%;
-        font-size: 1.5vw;
-    }
     /* SIXTH PAGE */
     
-    #box-sixth h1 {
-        letter-spacing: 3px;
-        left: 50%;
-        top: 25%;
-        font-size: 1.5vw;
-    }
-    #box-sixth h2 {
-        letter-spacing: 3px;
-        left: 50%;
-        top: 50%;
-        font-size: 1.5vw;
-    }
+   
 }
 body,
 html {
