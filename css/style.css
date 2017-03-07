@@ -398,11 +398,12 @@ h2 {
     }
     #box-wrapper p {
         font-size: 9px;
+        transform: translateX(5%) translateY(-50%);
     }
     #me {
-        width: 80vw;
-        height: 80vh;
-        transform: translate(-130px, 50px);
+        width: 70vw;
+        height: 70vh;
+        transform: translate(-80px, 20%);
     }
     /* SECOND PAGE */
     
@@ -484,40 +485,8 @@ h2 {
     }
     /* FIFTH PAGE */
     
-    #box-fifth h1 {
-        top: 9%;
-        font-size: 35px;
-    }
-    #jesli {
-        left: 50%;
-        top: 30%;
-        font-size: 2vw;
-    }
-    #email {
-        font-weight: 900;
-        left: 50%;
-        top: 50%;
-        font-size: 3vw;
-    }
-    #czekam {
-        left: 50%;
-        top: 70%;
-        font-size: 2vw;
-    }
     /* SIXTH PAGE */
     
-    #box-sixth h1 {
-        letter-spacing: 3px;
-        left: 50%;
-        top: 25%;
-        font-size: 2.5vw;
-    }
-    #box-sixth h2 {
-        letter-spacing: 3px;
-        left: 50%;
-        top: 50%;
-        font-size: 2.5vw;
-    }
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 
@@ -530,6 +499,7 @@ h2 {
     }
     #box-wrapper p {
         font-size: 10px;
+        transform: translateX(5%) translateY(-50%);
     }
     #me {
         width: 95vw;
@@ -614,40 +584,8 @@ h2 {
     }
     /* FIFTH PAGE */
     
-    #box-fifth h1 {
-        top: 9%;
-        font-size: 40px;
-    }
-    #jesli {
-        left: 50%;
-        top: 30%;
-        font-size: 2vw;
-    }
-    #email {
-        font-weight: 900;
-        left: 50%;
-        top: 50%;
-        font-size: 2.5vw;
-    }
-    #czekam {
-        left: 50%;
-        top: 70%;
-        font-size: 2vw;
-    }
     /* SIXTH PAGE */
     
-    #box-sixth h1 {
-        letter-spacing: 3px;
-        left: 50%;
-        top: 25%;
-        font-size: 2vw;
-    }
-    #box-sixth h2 {
-        letter-spacing: 3px;
-        left: 50%;
-        top: 50%;
-        font-size: 2vw;
-    }
 }
 /* big landscape tablets, laptops, and desktops */
 
@@ -660,6 +598,7 @@ h2 {
     }
     #box-wrapper p {
         font-size: 9px;
+        transform: translateX(5%) translateY(-50%);
     }
     #me {
         width: 95vw;
@@ -744,38 +683,6 @@ h2 {
     }
     /* FIFTH PAGE */
     
-    #box-fifth h1 {
-        top: 9%;
-        font-size: 40px;
-    }
-    #jesli {
-        left: 50%;
-        top: 30%;
-        font-size: 2vw;
-    }
-    #email {
-        font-weight: 900;
-        left: 50%;
-        top: 50%;
-        font-size: 2.5vw;
-    }
-    #czekam {
-        left: 50%;
-        top: 70%;
-        font-size: 2vw;
-    }
-    #box-sixth h1 {
-        letter-spacing: 3px;
-        left: 50%;
-        top: 25%;
-        font-size: 1.5vw;
-    }
-    #box-sixth h2 {
-        letter-spacing: 3px;
-        left: 50%;
-        top: 50%;
-        font-size: 1.5vw;
-    }
 }
 /* hi-res laptops and desktops */
 
