@@ -788,11 +788,12 @@ h2 {
     }
     #box-wrapper p {
         font-size: 9px;
+        transform: translateX(10%) translateY(-50%);
     }
     #me {
         width: 95vw;
         height: 95vh;
-        transform: translate(-400px, 40px);
+        transform: translate(-415px, 40px);
     }
     /* SECOND PAGE */
     
@@ -889,8 +890,7 @@ h2 {
     /* FIFTH PAGE */
     
     /* SIXTH PAGE */
-    
-   
+
 }
 body,
 html {
