@@ -252,9 +252,9 @@ h2 {
         font-size: 25px;
     }
     #myskills {
-        width: 50vw;
-        height: 50vh;
-        transform: translate(-10%, -1%);
+        width: 30vw;
+        height: 30vh;
+        transform: translate(-10%, 10%);
     }
     #html,
     #css,
@@ -265,7 +265,7 @@ h2 {
     #illustrator,
     #inkscape,
     #gimp {
-        margin-top: 20%;
+        margin-top: 15%;
         width: 13vw;
         height: 13vh;
     }
@@ -358,7 +358,7 @@ h2 {
     #myskills {
         width: 40vw;
         height: 40vh;
-        transform: translate(-60%, -20%);
+        transform: translate(-10%, 5%);
     }
     #html,
     #css,
@@ -369,7 +369,7 @@ h2 {
     #illustrator,
     #inkscape,
     #gimp {
-        margin-top: 15%;
+        margin-top: 19%;
         width: 13vw;
         height: 13vh;
     }
@@ -458,9 +458,9 @@ h2 {
         font-size: 2.5vw;
     }
     #myskills {
-        width: 45vw;
-        height: 45vh;
-        transform: translate(-70%, -50%);
+        width: 40vw;
+        height: 40vh;
+        transform: translate(-70%, -35%);
     }
     #html,
     #css,
@@ -471,7 +471,7 @@ h2 {
     #illustrator,
     #inkscape,
     #gimp {
-        margin-top: 11%;
+        margin-top: 13%;
         width: 15vw;
         height: 15vh;
     }
@@ -572,7 +572,7 @@ h2 {
     #illustrator,
     #inkscape,
     #gimp {
-        margin-top: 9%;
+        margin-top: 10%;
         width: 16vw;
         height: 16vh;
     }

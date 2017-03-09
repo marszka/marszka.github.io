@@ -34,15 +34,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.25"
-     inkscape:cx="-663.57359"
-     inkscape:cy="270.13196"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="226.82934"
+     inkscape:cy="520.05204"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer25"
+     inkscape:current-layer="layer28"
      showgrid="false"
      units="px"
      inkscape:window-width="1366"
-     inkscape:window-height="711"
+     inkscape:window-height="708"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -80,16 +80,16 @@
        id="g12"
        transform="matrix(1.4270017,0,0,-1.4270018,188.9442,77.025713)">
       <path
-         d="m 0,0 -40.275,0 -40.276,0 7.548,-81.885 32.728,-9.279 32.715,9.279 L 0,0 Z"
+         d="m 0,5.1915375 -40.275,0 -40.276,0 7.548,-81.8850015 32.728,-9.279 32.715,9.279 L 0,5.1915375 Z"
          style="fill:#e6a329;fill-opacity:1;fill-rule:nonzero;stroke:none"
          id="path14"
          inkscape:connector-curvature="0" />
     </g>
     <g
        id="g16"
-       transform="matrix(1.4270017,0,0,-1.4270018,131.47112,86.544404)">
+       transform="matrix(1.4270017,0,0,-1.4270018,131.47112,83.369402)">
       <path
-         d="M 0,0 0,-77.559 26.502,-70.046 32.956,0 0,0 Z"
+         d="m 0,2.9665929 0,-77.5590009 26.502,7.513 6.454,70.0460009 -32.956,0 z"
          style="fill:#f1bf22;fill-opacity:1;fill-rule:nonzero;stroke:none"
          id="path18"
          inkscape:connector-curvature="0" />
@@ -98,7 +98,7 @@
        id="g20"
        transform="matrix(1.4270017,0,0,-1.4270018,161.55948,100.88262)">
       <path
-         d="m 0,0 -40.763,0 -2.833,-30.66 0.06,0.192 34.626,0 -1.13,-12.969 -11.045,-3.184 -11.214,3.232 -0.673,7.849 -10.18,0 1.455,-15.685 20.612,-5.853 20.612,5.853 2.837,30.781 -36.742,0 0.468,10.264 25.503,0 0.375,-5.875 10.271,0 L 0,0 Z"
+         d="m 0,5.1915375 -40.763,0 -2.833,-30.6600015 0.06,0.192 34.626,0 -1.13,-12.969 -11.045,-3.184 -11.214,3.232 -0.673,7.849 -10.18,0 1.455,-15.685 20.612,-5.853 20.612,5.853 2.837,30.781 -36.742,0 0.468,10.2640014 25.503,0 0.375,-5.8750014 10.271,0 L 0,5.1915375 Z"
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
          id="path22"
          inkscape:connector-curvature="0" />
@@ -107,20 +107,14 @@
        id="g24"
        transform="matrix(1.4270017,0,0,-1.4270018,114.50879,151.59836)">
       <path
-         d="m 0,0 -10.18,0 1.454,-15.685 20.613,-5.84 0,10.444 L 0.673,-7.849 0,0 Z m 11.887,35.54 -19.679,0 -2.833,-30.66 0.061,0.192 22.451,0 0,10.024 -11.876,0 0.468,10.264 11.408,0 0,10.18 z"
+         d="m 0,5.1915375 -10.18,0 1.454,-15.6850015 20.613,-5.84 0,10.4440012 L 0.673,-2.6574626 0,5.1915375 Z m 11.887,35.5399985 -19.679,0 -2.833,-30.659999 0.061,0.192 22.451,0 0,10.023999 -11.876,0 0.468,10.264 11.408,0 0,10.18 z"
          style="fill:#ebebeb;fill-opacity:1;fill-rule:nonzero;stroke:none"
          id="path26"
          inkscape:connector-curvature="0" />
     </g>
     <g
        id="g28"
-       transform="matrix(1.4270017,0,0,-1.4270018,120.28572,59.78951)">
-      <path
-         d="m 0,0 -7.163,0 0,-5.144 7.163,0 3.835,0 1.298,0 0,15.288 L 0,10.144 0,0 Z"
-         style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="path30"
-         inkscape:connector-curvature="0" />
-    </g>
+       transform="matrix(1.4270017,0,0,-1.4270018,120.28572,59.78951)" />
     <g
        transform="matrix(1.4270017,0,0,-1.4270018,30.344941,227.34092)"
        id="g32">
@@ -129,13 +123,7 @@
          clip-path="url(#clipPath36)">
         <g
            id="g40"
-           transform="translate(85.8682,127.4814)">
-          <path
-             d="m 0,0 -12.494,0 0,-5.354 c 1.67,-1.671 2.543,-2.471 4.961,-4.889 -1.414,0 -4.961,-0.005 -4.961,-0.005 l 0,-4.884 12.494,0 0,4.885 -4.99,4.893 4.99,0 L 0,0 Z"
-             style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path42"
-             inkscape:connector-curvature="0" />
-        </g>
+           transform="translate(85.8682,127.4814)" />
       </g>
     </g>
   </g>
