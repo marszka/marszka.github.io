@@ -206,7 +206,7 @@ h2 {
       /* FIRST PAGE */
     #box-wrapper h1 {
         font-size: 15px;
-        transform: translateX(-47%) translateY(-250%);
+        transform: translateX(-47%) translateY(-350%);
     }
     #box-wrapper p {
         font-size: 8px;
@@ -304,15 +304,15 @@ h2 {
     /* FIRST PAGE */
     #box-wrapper h1 {
         font-size: 25px;
-        transform: translateX(-45%) translateY(-350%);
+        transform: translateX(-45%) translateY(-250%);
     }
     #box-wrapper p {
         font-size: 12px;
         transform: translateX(2%) translateY(-50%);
     }
     #me {
-        width: 60vw;
-        height: 60vh;
+        width: 57vw;
+        height:57vh;
         transform: translate(35%, 60%);
     }
 
@@ -403,15 +403,15 @@ h2 {
      /* FIRST PAGE */
     #box-wrapper h1 {
         font-size: 25px;
-        transform: translateX(-10%) translateY(-100%);
+        transform: translateX(-15%) translateY(-90%);
     }
     #box-wrapper p {
         font-size: 12px;
         transform: translateX(2%) translateY(-50%);
     }
     #me {
-        width: 65vw;
-        height: 65vh;
+        width: 70vw;
+        height: 70vh;
         transform: translate(-10%, 30%);
     }
     /* SECOND PAGE */
