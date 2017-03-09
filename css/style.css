@@ -304,7 +304,7 @@ h2 {
     /* FIRST PAGE */
     #box-wrapper h1 {
         font-size: 25px;
-        transform: translateX(-45%) translateY(-350%);
+        transform: translateX(-45%) translateY(-400%);
     }
     #box-wrapper p {
         font-size: 12px;
@@ -513,7 +513,7 @@ h2 {
     #me {
         width: 85vw;
         height: 85vh;
-        transform: translate(-25%, 10%);
+        transform: translate(-35%, 10%);
     }
     /* SECOND PAGE */
     
