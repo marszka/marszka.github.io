@@ -223,16 +223,21 @@ h2 {
         top: 8%;
         font-size: 4vw;
     }
-    ul.a {
-        left: 50%;
-        top: 35%;
-        font-size: 17px;
-        width: 370px;
+    p {
+        left: 52%;
+        top: 42%;
+        font-size: 8px;
+        width: 200px;
     }
     #hello {
-        width: 50vw;
-        height: 50vh;
-        transform: translate(-10%, 100%);
+        width: 40vw;
+        height: 40vh;
+        transform: translate(-20%, -80%);
+    }
+    #cloud {
+        width: 85vw;
+        height: 85vh;
+        transform: translate(-1%, -5%);
     }
     /* THIRD PAGE */
     
@@ -321,12 +326,6 @@ h2 {
     #box-second h1 {
         top: 8%;
         font-size: 4vw;
-    }
-    ul.a {
-        left: 63%;
-        top: 55%;
-        font-size: 18px;
-        width: 300px;
     }
     p {
         left: 52%;
