@@ -22,7 +22,7 @@
     background-image: url("../img/bg.svg");
 }
 #box-third {
-    background-color: #18121E;
+    background-image: url("../img/bg2.png");
 }
 #box-fourth {
     background-color: #ffcc00;
@@ -140,7 +140,7 @@ h2 {
     #cloud {
         width: 130vw;
         height: 130vh;
-        transform: translate(-13%, -23%);
+        transform: translate(-14%, -23%);
     }
     /* THIRD PAGE */
     
@@ -545,12 +545,12 @@ h2 {
     #hello {
         width: 55vw;
         height: 55vh;
-        transform: translate(35%, -55%);
+        transform: translate(35%, -75%);
     }
     #cloud {
-        width: 65vw;
-        height: 65vh;
-        transform: translate(-30%, 18%);
+        width: 80vw;
+        height: 80vh;
+        transform: translate(-25%, 5%);
     }
     /* THIRD PAGE */
     
