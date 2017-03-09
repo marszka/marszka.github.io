@@ -103,7 +103,7 @@ h2 {
 
 /* smartphones, iPhone, portrait 480x320 phones */
 
-@media (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
     /* FIRST PAGE */
     
     #box-wrapper h1 {
@@ -126,16 +126,21 @@ h2 {
         top: 6%;
         font-size: 5vw;
     }
-    ul.a {
-        left: 50%;
-        top: 37%;
-        font-size: 13px;
-        width: 270px;
+    p {
+        left: 51%;
+        top: 39%;
+        font-size: 11px;
+        width: 200px;
     }
     #hello {
-        width: 55vw;
-        height: 55vh;
-        transform: translate(-10%, 85%);
+        width: 60vw;
+        height: 60vh;
+        transform: translate(-20%, -145%);
+    }
+    #cloud {
+        width: 130vw;
+        height: 130vh;
+        transform: translate(-13%, -23%);
     }
     /* THIRD PAGE */
     
@@ -201,7 +206,7 @@ h2 {
 }
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
 
-@media (max-width: 767px) {
+@media (min-width: 480px) and (max-width: 767px) {
   
       /* FIRST PAGE */
     #box-wrapper h1 {
@@ -224,20 +229,20 @@ h2 {
         font-size: 4vw;
     }
     p {
-        left: 52%;
-        top: 42%;
-        font-size: 8px;
-        width: 200px;
+        left: 50%;
+        top: 36%;
+        font-size: 11px;
+        width: 220px;
     }
     #hello {
-        width: 40vw;
-        height: 40vh;
-        transform: translate(-20%, -80%);
+        width: 50vw;
+        height: 50vh;
+        transform: translate(-20%, -125%);
     }
     #cloud {
-        width: 85vw;
-        height: 85vh;
-        transform: translate(-1%, -5%);
+        width: 110vw;
+        height: 110vh;
+        transform: translate(-6%, -20%);
     }
     /* THIRD PAGE */
     
