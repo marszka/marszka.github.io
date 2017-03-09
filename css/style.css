@@ -513,7 +513,7 @@ h2 {
     #me {
         width: 85vw;
         height: 85vh;
-        transform: translate(-35%, 10%);
+        transform: translate(-25%, 10%);
     }
     /* SECOND PAGE */
     
@@ -523,19 +523,19 @@ h2 {
     }
     p {
         left: 31%;
-        top: 49%;
-        font-size: 20px;
-        width: 600px;
+        top: 47%;
+        font-size: 14px;
+        width: 400px;
     }
     #hello {
         width: 55vw;
         height: 55vh;
-        transform: translate(35%, -135%);
+        transform: translate(35%, -55%);
     }
     #cloud {
-        width: 100vw;
-        height: 100vh;
-        transform: translate(-20%, -7%);
+        width: 65vw;
+        height: 65vh;
+        transform: translate(-30%, 18%);
     }
     /* THIRD PAGE */
     
