@@ -328,10 +328,21 @@ h2 {
         font-size: 18px;
         width: 300px;
     }
+    p {
+        left: 52%;
+        top: 35%;
+        font-size: 13px;
+        width: 300px;
+    }
     #hello {
-        width: 45vw;
-        height: 45vh;
-        transform: translate(-230px, 150px);
+        width: 50vw;
+        height: 50vh;
+        transform: translate(-10%, -90%);
+    }
+    #cloud {
+        width: 95vw;
+        height: 95vh;
+        transform: translate(2%, -15%);
     }
     /* THIRD PAGE */
     
@@ -423,8 +434,8 @@ h2 {
     p {
         left: 39%;
         top: 49%;
-        font-size: 17px;
-        width: 500px;
+        font-size: 13px;
+        width: 300px;
     }
     #hello {
         width: 45vw;
