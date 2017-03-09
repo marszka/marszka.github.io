@@ -25,7 +25,7 @@
     background-image: url("../img/bg2.png");
 }
 #box-fourth {
-    background-color: #ffcc00;
+    background-image: url("../img/bg3.svg");
 }
 #box-fifth {
     background-color: #18121E;
@@ -510,6 +510,11 @@ h2 {
     .ih-item.circle .img:before {
         box-shadow: inset 0 0 0 10px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
     }
+    #firstCloud {
+        width: 30vw;
+        height: 30vh;
+        transform: translate(-60%, -35%);  
+    }
     /* FIFTH PAGE */
 
 }
@@ -611,6 +616,7 @@ h2 {
     .ih-item.circle .img:before {
         box-shadow: inset 0 0 0 12px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
     }
+
     /* FIFTH PAGE */
     
 }
