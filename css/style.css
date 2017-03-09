@@ -254,7 +254,7 @@ h2 {
     #myskills {
         width: 30vw;
         height: 30vh;
-        transform: translate(-10%, 10%);
+        transform: translate(-10%, 9%);
     }
     #html,
     #css,
@@ -265,7 +265,7 @@ h2 {
     #illustrator,
     #inkscape,
     #gimp {
-        margin-top: 15%;
+        margin-top: 90px;
         width: 13vw;
         height: 13vh;
     }
