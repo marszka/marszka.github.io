@@ -536,7 +536,6 @@ h2 {
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
     /* FIRST PAGE */
-    
     #box-wrapper h1 {
         font-size: 30px;
         transform: translateX(-5%) translateY(-50%);
