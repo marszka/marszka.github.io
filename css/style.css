@@ -192,6 +192,7 @@ p,
     .ih-item.circle .img:before {
         box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
     }
+    
     #fourth_img {
         width: 55vw;
         height: 55vh;
