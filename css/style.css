@@ -30,7 +30,14 @@
     background-color: #18121E;
 }
 
-
+    .allcontact {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
 /* FONT */
 
 @font-face {
@@ -217,7 +224,13 @@ p,
     padding-right: 8px;
 }
     .allcontact {
-    padding-top: 200px;;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
 }
     .contact_font_size {
         font-size: 13px;
@@ -335,20 +348,12 @@ p,
         left: 50%;
         font-size: 25px;
     }
-    #fifth_img {
-        width: 45vw;
-        height: 45vh;
-        transform: translate(-10%, 35%);
-    }
-    #contact_email {
-        width: 12vw;
-        height: 12vh;
-        transform: translate(-265%, 100%);
-    }
-    #contact_github {
-        width: 12vw;
-        height: 12vh;
-        transform: translate(-265%, 180%);
+   .contact_image {
+    width: 35px;
+    padding-right: 8px;
+}
+    .contact_font_size {
+    font-size: 20px;
     }
 }
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
@@ -357,7 +362,7 @@ p,
     /* FIRST PAGE */
     #box-wrapper h1 {
         font-size: 25px;
-        transform: translateX(-45%) translateY(-400%);
+        transform: translateX(-45%) translateY(-300%);
     }
     #box-wrapper p {
         font-size: 12px;
@@ -463,17 +468,9 @@ p,
         left: 50%;
         font-size: 35px;
     } 
-    #fifth_img {
-        width: 45vw;
-        height: 45vh;
-        transform: translate(-10%, 35%);
-    }
    .contact_image {
-    width: 30x;
+    width: 30px;
     padding-right: 8px;
-}
-    .allcontact {
-    padding-top: 200px;;
 }
     .contact_font_size {
     font-size: 15px;
@@ -601,9 +598,6 @@ p,
     width: 60px;
     padding-right: 8px;
 }
-    .allcontact {
-    padding-top: 450px;;
-}
     .contact_font_size {
     font-size: 25px;
     }
@@ -720,9 +714,7 @@ p,
     width: 50px;
     padding-right: 8px;
 }
-    .allcontact {
-    padding-top: 300px;;
-}
+
     .contact_font_size {
     font-size: 25px;
     }
