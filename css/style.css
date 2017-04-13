@@ -214,14 +214,9 @@ p,
         top: 6%;
         font-size: 5vw;
     }
-    #fifth_img {
-        width: 45vw;
-        height: 45vh;
-        transform: translate(-10%, 35%);
-    }
+
    .contact_image {
-    width: 25px;
-    padding-right: 8px;
+    display: none;
 }
     .allcontact {
     position: absolute;
@@ -231,9 +226,8 @@ p,
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
-}
     .contact_font_size {
-        font-size: 13px;
+        font-size: 15px;
     }
 }
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
@@ -473,7 +467,7 @@ p,
     padding-right: 8px;
 }
     .contact_font_size {
-    font-size: 15px;
+    font-size: 20px;
     }
 }
 
@@ -589,11 +583,7 @@ p,
         top: 10%;
         font-size: 2.5vw;
     }
-    #fifth_img {
-        width: 45vw;
-        height: 45vh;
-        transform: translate(-10%, 35%);
-    }
+
    .contact_image {
     width: 60px;
     padding-right: 8px;
