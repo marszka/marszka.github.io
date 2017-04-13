@@ -29,6 +29,8 @@
 #box-fifth {
     background-color: #18121E;
 }
+
+
 /* FONT */
 
 @font-face {
@@ -210,26 +212,16 @@ p,
         height: 45vh;
         transform: translate(-10%, 35%);
     }
-    #contact_email {
-        width: 12vw;
-        height: 12vh;
-        transform: translate(-265%, 100%);
+   .contact_image {
+    width: 25px;
+    padding-right: 8px;
+}
+    .allcontact {
+    padding-top: 200px;;
+}
+    .contact_font_size {
+        font-size: 13px;
     }
-    #contact_github {
-        width: 12vw;
-        height: 12vh;
-        transform: translate(-265%, 180%);
-    }
-    #email {
-        top: 63%;
-        left: 54%;
-        font-size: 3.5vw;
-    } 
-    #git {
-        top: 84%;
-        left: 54%;
-        font-size: 3.5vw;
-    } 
 }
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
 
@@ -358,16 +350,6 @@ p,
         height: 12vh;
         transform: translate(-265%, 180%);
     }
-    #email {
-        top: 63%;
-        left: 50%;
-        font-size: 3.5vw;
-    } 
-    #git {
-        top: 84%;
-        left: 50%;
-        font-size: 3.5vw;
-    } 
 }
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 
@@ -486,26 +468,16 @@ p,
         height: 45vh;
         transform: translate(-10%, 35%);
     }
-    #contact_email {
-        width: 12vw;
-        height: 12vh;
-        transform: translate(-175%, 100%);
+   .contact_image {
+    width: 30x;
+    padding-right: 8px;
+}
+    .allcontact {
+    padding-top: 200px;;
+}
+    .contact_font_size {
+    font-size: 15px;
     }
-    #contact_github {
-        width: 12vw;
-        height: 12vh;
-        transform: translate(-175%, 180%);
-    }
-    #email {
-        top: 63%;
-        left: 56%;
-        font-size: 2.5vw;
-    } 
-    #git {
-        top: 84%;
-        left: 56%;
-        font-size: 2.5vw;
-    } 
 }
 
 /* Landscape tablets and medium desktops */
@@ -625,26 +597,16 @@ p,
         height: 45vh;
         transform: translate(-10%, 35%);
     }
-    #contact_email {
-        width: 12vw;
-        height: 12vh;
-        transform: translate(-175%, 100%);
+   .contact_image {
+    width: 60px;
+    padding-right: 8px;
+}
+    .allcontact {
+    padding-top: 450px;;
+}
+    .contact_font_size {
+    font-size: 25px;
     }
-    #contact_github {
-        width: 12vw;
-        height: 12vh;
-        transform: translate(-175%, 180%);
-    }
-    #email {
-        top: 63%;
-        left: 53%;
-        font-size: 2.5vw;
-    } 
-    #git {
-        top: 84%;
-        left: 53%;
-        font-size: 2.5vw;
-    } 
 }
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
@@ -754,32 +716,17 @@ p,
         top: 10%;
         font-size: 2.5vw;
     }
-    #fifth_img {
-        width: 60vw;
-        height: 60vh;
-        transform: translate(-45%, 50%);
+   .contact_image {
+    width: 50px;
+    padding-right: 8px;
+}
+    .allcontact {
+    padding-top: 300px;;
+}
+    .contact_font_size {
+    font-size: 25px;
     }
-    #contact_email {
-        width: 40px;
-        height: 40px;
-        transform: translate(-35%, -190%);
-    }
-    #contact_github {
-        width: 40px;
-        height: 40px;
-        transform: translate(-35%, -120%);
-    }
-    #email {
-        top: 50%;
-        left: 62%;
-        font-size: 1.5vw;
-    } 
-    #git {
-        top: 62%;
-        left: 62.5%;
-        font-size: 1.5vw;
-        width: 100%;
-    } 
+
 
 }
 body,
